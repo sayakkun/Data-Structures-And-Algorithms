@@ -78,7 +78,7 @@ bool Graph::is_cyclic()
     		
 		}	
 	}
-	//if graph is strongly connected, we can skip that
+	//if graph is strongly connected, we can skip that looping
 	return false;
 }
  
